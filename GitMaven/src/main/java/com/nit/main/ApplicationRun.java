@@ -1,13 +1,17 @@
 package com.nit.main;
 
+import com.nit.service.Arithmetic;
+
 /**
  * Hello world!
  *
  */
-public class App 
+public class ApplicationRun 
 {
     public static void main( String[] args )
     {
-        System.out.println( "Hello World!" );
+        Arithmetic ar=new Arithmetic();
+        System.out.println(ar.sum(10,20));
+        
     }
 }
